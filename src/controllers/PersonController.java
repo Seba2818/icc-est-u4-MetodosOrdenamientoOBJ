@@ -35,7 +35,7 @@ public class PersonController {
             while(
                 j>= 0 
                 && 
-                personas[j].getName().compareTo(aux.getName()) ){
+                personas[j].getName().compareTo(aux.getName()) > 0 ){
                 personas[j+1] = personas [j];
                 j -- ;
             }
